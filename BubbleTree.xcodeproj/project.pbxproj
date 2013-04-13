@@ -26,6 +26,8 @@
 		2B4358D31719F466004B6CBF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4358D11719F453004B6CBF /* SystemConfiguration.framework */; };
 		2B4358D51719F480004B6CBF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4358D41719F480004B6CBF /* MobileCoreServices.framework */; };
 		2B4358DC1719F747004B6CBF /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4358DB1719F747004B6CBF /* Constants.m */; };
+		2B4358DF1719F82D004B6CBF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4358DE1719F82D004B6CBF /* MainViewController.m */; };
+		2B4358E11719F84F004B6CBF /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B4358E01719F84F004B6CBF /* MainView.xib */; };
 		FC3E9C655309434CBB0399E3 /* libPods-BubbleTreeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 642D68957A4146EA93AA551D /* libPods-BubbleTreeTests.a */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +68,9 @@
 		2B4358D41719F480004B6CBF /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		2B4358DA1719F747004B6CBF /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		2B4358DB1719F747004B6CBF /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		2B4358DD1719F82D004B6CBF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		2B4358DE1719F82D004B6CBF /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		2B4358E01719F84F004B6CBF /* MainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
 		642D68957A4146EA93AA551D /* libPods-BubbleTreeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BubbleTreeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93D86E025134492ABF6E9367 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		A39EBEC4607E4ADE8B36C5F2 /* Pods-BubbleTreeTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BubbleTreeTests.xcconfig"; path = "Pods/Pods-BubbleTreeTests.xcconfig"; sourceTree = SOURCE_ROOT; };
@@ -140,6 +145,9 @@
 			children = (
 				2B4358A81719EB60004B6CBF /* AppDelegate.h */,
 				2B4358A91719EB60004B6CBF /* AppDelegate.m */,
+				2B4358DD1719F82D004B6CBF /* MainViewController.h */,
+				2B4358DE1719F82D004B6CBF /* MainViewController.m */,
+				2B4358E01719F84F004B6CBF /* MainView.xib */,
 				2B4358CE1719F37D004B6CBF /* RelifyClient.h */,
 				2B4358CF1719F37D004B6CBF /* RelifyClient.m */,
 				2B4358DA1719F747004B6CBF /* Constants.h */,
@@ -259,6 +267,7 @@
 				2B4358AC1719EB60004B6CBF /* Default.png in Resources */,
 				2B4358AE1719EB61004B6CBF /* Default@2x.png in Resources */,
 				2B4358B01719EB61004B6CBF /* Default-568h@2x.png in Resources */,
+				2B4358E11719F84F004B6CBF /* MainView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +334,7 @@
 				2B4358AA1719EB60004B6CBF /* AppDelegate.m in Sources */,
 				2B4358D01719F37D004B6CBF /* RelifyClient.m in Sources */,
 				2B4358DC1719F747004B6CBF /* Constants.m in Sources */,
+				2B4358DF1719F82D004B6CBF /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
