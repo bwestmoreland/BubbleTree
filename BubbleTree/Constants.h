@@ -1,13 +1,13 @@
 //
-//  RelifyClient.h
-//  BubbleTree
+//  Constants.h
+//  Relify
 //
 //  Created by Brent Westmoreland on 4/13/13.
 //  Copyright (c) 2013 Brent Westmoreland. All rights reserved.
 //
 
-@interface RelifyClient : AFOAuth2Client
+@interface Constants : NSObject
 
-+(RelifyClient *)sharedClient;
+extern NSString *const kRecommender;
 
 @end

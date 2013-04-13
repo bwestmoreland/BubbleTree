@@ -8,8 +8,19 @@
 
 #import "RelifyClient.h"
 
+
+
 @implementation RelifyClient
 
-
++(RelifyClient *)sharedClient
+{
+    static RelifyClient *_sharedClient;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        _sharedClient = [[RelifyClient alloc] initWithBaseURL:[NSURL URLWithString:@"https://api.relify.com/1/"]];
+    });
+    
+    return _sharedClient;
+}
 
 @end
