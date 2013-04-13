@@ -1,0 +1,103 @@
+[
+  {
+    "address" : "2401 E North St",
+    "city" : "Greenville",
+    "phone" : "8667332693",
+    "postal_code" : "29615-1401",
+    "place_id" : 1362137041078791700,
+    "user_id" : 1362013399183,
+    "name" : "Redbox",
+    "state" : "SC"
+  },
+  {
+    "address" : "700 Haywood Road",
+    "city" : "Greenville",
+    "phone" : "8643299995",
+    "postal_code" : "29607",
+    "place_id" : 1362264038086827600,
+    "user_id" : 1362013399183,
+    "name" : "Pandora",
+    "state" : "SC"
+  },
+  {
+    "address" : "1 Wade Hampton Boulevard",
+    "city" : "Greenville",
+    "phone" : "8649929999",
+    "postal_code" : "29609-5656",
+    "place_id" : 1362925549731224000,
+    "user_id" : 1362013399183,
+    "name" : "Cabin Floor Records",
+    "state" : "SC"
+  },
+  {
+    "address" : "NONE",
+    "city" : "Greenville",
+    "phone" : "NONE",
+    "postal_code" : "29607",
+    "place_id" : 1363095296324986800,
+    "user_id" : 1362013399183,
+    "name" : "Tech Rebuy",
+    "state" : "SC"
+  },
+  {
+    "address" : "1 Chick Springs Road, Ste 217",
+    "city" : "Greenville",
+    "phone" : "NONE",
+    "postal_code" : "29609",
+    "place_id" : 1363191516606135700,
+    "user_id" : 1362013399183,
+    "name" : "Hands Down Massage",
+    "state" : "SC"
+  },
+  {
+    "address" : "775 Woodruff Rd Suite H",
+    "city" : "Greenville",
+    "phone" : "8642341441",
+    "postal_code" : "29607",
+    "place_id" : 1363284718859227500,
+    "user_id" : 1362013399183,
+    "name" : "Square International SC",
+    "state" : "SC"
+  },
+  {
+    "address" : "700 Haywood Rd",
+    "city" : "Greenville",
+    "phone" : "NONE",
+    "postal_code" : "29607",
+    "place_id" : 1363374476398017800,
+    "user_id" : 1362013399183,
+    "name" : "Amanzi tea",
+    "state" : "SC"
+  },
+  {
+    "address" : "2524 E North St",
+    "city" : "Greenville",
+    "phone" : "NONE",
+    "postal_code" : "29615",
+    "place_id" : 1363477043897703000,
+    "user_id" : 1362013399183,
+    "name" : "Color Clay Cafe",
+    "state" : "SC"
+  },
+  {
+    "address" : "525 Congaree Road",
+    "city" : "Greenville",
+    "phone" : "NONE",
+    "postal_code" : "29607",
+    "place_id" : 1363801539735379600,
+    "user_id" : 1362013399183,
+    "name" : "T-Mobile",
+    "state" : "SC"
+  },
+  {
+    "address" : "NONE",
+    "city" : "Greenville",
+    "phone" : "NONE",
+    "postal_code" : "29615",
+    "state" : "SC",
+    "place_id" : 1364217130160102000,
+    "user_id" : 1362013399183,
+    "name" : "SOS Thrift Store",
+    "last_key" : "true"
+  }
+]
