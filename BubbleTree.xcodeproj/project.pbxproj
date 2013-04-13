@@ -22,6 +22,9 @@
 		2B4358BA1719EB61004B6CBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B43589B1719EB60004B6CBF /* Foundation.framework */; };
 		2B4358C21719EB61004B6CBF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B4358C01719EB61004B6CBF /* InfoPlist.strings */; };
 		2B4358C51719EB61004B6CBF /* BubbleTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4358C41719EB61004B6CBF /* BubbleTreeTests.m */; };
+		2B4358D01719F37D004B6CBF /* RelifyClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4358CF1719F37D004B6CBF /* RelifyClient.m */; };
+		2B4358D31719F466004B6CBF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4358D11719F453004B6CBF /* SystemConfiguration.framework */; };
+		2B4358D51719F480004B6CBF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4358D41719F480004B6CBF /* MobileCoreServices.framework */; };
 		FC3E9C655309434CBB0399E3 /* libPods-BubbleTreeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 642D68957A4146EA93AA551D /* libPods-BubbleTreeTests.a */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +59,10 @@
 		2B4358C11719EB61004B6CBF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2B4358C31719EB61004B6CBF /* BubbleTreeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BubbleTreeTests.h; sourceTree = "<group>"; };
 		2B4358C41719EB61004B6CBF /* BubbleTreeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleTreeTests.m; sourceTree = "<group>"; };
+		2B4358CE1719F37D004B6CBF /* RelifyClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelifyClient.h; sourceTree = "<group>"; };
+		2B4358CF1719F37D004B6CBF /* RelifyClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelifyClient.m; sourceTree = "<group>"; };
+		2B4358D11719F453004B6CBF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2B4358D41719F480004B6CBF /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		642D68957A4146EA93AA551D /* libPods-BubbleTreeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BubbleTreeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93D86E025134492ABF6E9367 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		A39EBEC4607E4ADE8B36C5F2 /* Pods-BubbleTreeTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BubbleTreeTests.xcconfig"; path = "Pods/Pods-BubbleTreeTests.xcconfig"; sourceTree = SOURCE_ROOT; };
@@ -66,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B4358D51719F480004B6CBF /* MobileCoreServices.framework in Frameworks */,
+				2B4358D31719F466004B6CBF /* SystemConfiguration.framework in Frameworks */,
 				2B43589A1719EB60004B6CBF /* UIKit.framework in Frameworks */,
 				2B43589C1719EB60004B6CBF /* Foundation.framework in Frameworks */,
 				2B43589E1719EB60004B6CBF /* CoreGraphics.framework in Frameworks */,
@@ -111,6 +120,8 @@
 		2B4358981719EB60004B6CBF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2B4358D41719F480004B6CBF /* MobileCoreServices.framework */,
+				2B4358D11719F453004B6CBF /* SystemConfiguration.framework */,
 				2B4358991719EB60004B6CBF /* UIKit.framework */,
 				2B43589B1719EB60004B6CBF /* Foundation.framework */,
 				2B43589D1719EB60004B6CBF /* CoreGraphics.framework */,
@@ -126,6 +137,8 @@
 			children = (
 				2B4358A81719EB60004B6CBF /* AppDelegate.h */,
 				2B4358A91719EB60004B6CBF /* AppDelegate.m */,
+				2B4358CE1719F37D004B6CBF /* RelifyClient.h */,
+				2B4358CF1719F37D004B6CBF /* RelifyClient.m */,
 				2B4358A01719EB60004B6CBF /* Supporting Files */,
 			);
 			path = BubbleTree;
@@ -305,6 +318,7 @@
 			files = (
 				2B4358A61719EB60004B6CBF /* main.m in Sources */,
 				2B4358AA1719EB60004B6CBF /* AppDelegate.m in Sources */,
+				2B4358D01719F37D004B6CBF /* RelifyClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
