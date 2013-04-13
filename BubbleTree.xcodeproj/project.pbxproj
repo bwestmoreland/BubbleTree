@@ -29,6 +29,7 @@
 		2B4358DF1719F82D004B6CBF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4358DE1719F82D004B6CBF /* MainViewController.m */; };
 		2B4358E11719F84F004B6CBF /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B4358E01719F84F004B6CBF /* MainView.xib */; };
 		2B4358E41719FD5D004B6CBF /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4358E31719FD5D004B6CBF /* MainView.m */; };
+		2B4358E8171A01BC004B6CBF /* Venue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4358E7171A01BB004B6CBF /* Venue.m */; };
 		FC3E9C655309434CBB0399E3 /* libPods-BubbleTreeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 642D68957A4146EA93AA551D /* libPods-BubbleTreeTests.a */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +75,9 @@
 		2B4358E01719F84F004B6CBF /* MainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
 		2B4358E21719FD5D004B6CBF /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
 		2B4358E31719FD5D004B6CBF /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		2B4358E5171A01BB004B6CBF /* DataModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModels.h; sourceTree = "<group>"; };
+		2B4358E6171A01BB004B6CBF /* Venue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Venue.h; sourceTree = "<group>"; };
+		2B4358E7171A01BB004B6CBF /* Venue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Venue.m; sourceTree = "<group>"; };
 		642D68957A4146EA93AA551D /* libPods-BubbleTreeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BubbleTreeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93D86E025134492ABF6E9367 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		A39EBEC4607E4ADE8B36C5F2 /* Pods-BubbleTreeTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BubbleTreeTests.xcconfig"; path = "Pods/Pods-BubbleTreeTests.xcconfig"; sourceTree = SOURCE_ROOT; };
@@ -157,6 +161,9 @@
 				2B4358CF1719F37D004B6CBF /* RelifyClient.m */,
 				2B4358DA1719F747004B6CBF /* Constants.h */,
 				2B4358DB1719F747004B6CBF /* Constants.m */,
+				2B4358E5171A01BB004B6CBF /* DataModels.h */,
+				2B4358E6171A01BB004B6CBF /* Venue.h */,
+				2B4358E7171A01BB004B6CBF /* Venue.m */,
 				2B4358A01719EB60004B6CBF /* Supporting Files */,
 			);
 			path = BubbleTree;
@@ -341,6 +348,7 @@
 				2B4358DC1719F747004B6CBF /* Constants.m in Sources */,
 				2B4358DF1719F82D004B6CBF /* MainViewController.m in Sources */,
 				2B4358E41719FD5D004B6CBF /* MainView.m in Sources */,
+				2B4358E8171A01BC004B6CBF /* Venue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
