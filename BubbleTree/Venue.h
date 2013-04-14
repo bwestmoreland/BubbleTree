@@ -24,5 +24,6 @@
 + (NSObject *)modelObjectWithDictionary:(NSDictionary *)dict;
 - (id)initWithDictionary:(NSDictionary *)dict;
 - (NSDictionary *)dictionaryRepresentation;
++ (NSArray *)setup;
 
 @end

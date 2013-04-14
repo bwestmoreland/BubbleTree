@@ -42,7 +42,8 @@
 - (IBAction)personChosen:(UIButton *)sender
 {
     DLog(@"Person Chosen");
-    
+    NSArray *venues = [Venue setup];
+    DLog(@"venues %@", venues);
 }
 
 @end

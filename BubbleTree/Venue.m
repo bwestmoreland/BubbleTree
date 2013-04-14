@@ -12,6 +12,7 @@
 
 - (id)objectOrNilForKey:(id)aKey fromDictionary:(NSDictionary *)dict;
 
+
 @end
 
 @implementation Venue
@@ -26,6 +27,23 @@
 @synthesize name = _name;
 @synthesize state = _state;
 
++(NSArray *)setup
+{
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"score" ofType:@"json"];
+    NSError *error = nil;
+    NSString *jsonString = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+    if (error) {
+        DLog(@"Houston, we have a problem %@", [error localizedDescription]);
+    }
+    id jsonDictionary = [NSJSONSerialization JSONObjectWithData:[jsonString dataUsingEncoding:NSUTF8StringEncoding]
+                                                                   options:kNilOptions
+                                                                     error:nil];
+    
+    if ([jsonDictionary isKindOfClass:[NSArray class]]){
+        return jsonDictionary;
+    }
+    return nil;
+}
 
 + (Venue *)modelObjectWithDictionary:(NSDictionary *)dict
 {
