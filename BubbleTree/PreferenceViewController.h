@@ -8,4 +8,6 @@
 
 @interface PreferenceViewController : UIViewController
 
+@property (nonatomic, strong) Venue *venue;
+
 @end

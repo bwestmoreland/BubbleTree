@@ -9,5 +9,6 @@
 @interface Constants : NSObject
 
 extern NSString *const kRecommender;
+extern NSString *const kAuthenticationToken;
 
 @end

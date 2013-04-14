@@ -7,12 +7,14 @@
 //
 
 #import "MainViewController.h"
+#import "PreferenceViewController.h"
 
 @implementation MainViewController
 
 - (IBAction)bottomActionChosen:(UIButton *)sender
 {
     DLog(@"Botton Action Chosen");
+    
 }
 
 - (IBAction)topActionChosen:(UIButton *)sender
@@ -26,4 +28,5 @@
     DLog(@"Person Chosen");
     
 }
+
 @end

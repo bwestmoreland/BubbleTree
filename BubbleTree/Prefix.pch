@@ -16,6 +16,7 @@
     #import "AFOAuth2Client.h"
     #import "AFNetworking.h"
     #import "Constants.h"
+    #import "DataModels.h"
 #endif
 
 #ifdef DEBUG

@@ -12,6 +12,7 @@
 		2B030090171A5A51004418B3 /* venueheadContainer200.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B03008E171A5A51004418B3 /* venueheadContainer200.png */; };
 		2B030096171AEE49004418B3 /* PreferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B030095171AEE49004418B3 /* PreferenceViewController.m */; };
 		2B030098171AEE56004418B3 /* PreferenceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B030097171AEE56004418B3 /* PreferenceView.xib */; };
+		2B03009C171AF379004418B3 /* score.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B03009B171AF379004418B3 /* score.json */; };
 		2B43589A1719EB60004B6CBF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4358991719EB60004B6CBF /* UIKit.framework */; };
 		2B43589C1719EB60004B6CBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B43589B1719EB60004B6CBF /* Foundation.framework */; };
 		2B43589E1719EB60004B6CBF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B43589D1719EB60004B6CBF /* CoreGraphics.framework */; };
@@ -54,6 +55,7 @@
 		2B030094171AEE49004418B3 /* PreferenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PreferenceViewController.h; path = BubbleTree/PreferenceViewController.h; sourceTree = SOURCE_ROOT; };
 		2B030095171AEE49004418B3 /* PreferenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PreferenceViewController.m; path = BubbleTree/PreferenceViewController.m; sourceTree = SOURCE_ROOT; };
 		2B030097171AEE56004418B3 /* PreferenceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferenceView.xib; sourceTree = "<group>"; };
+		2B03009B171AF379004418B3 /* score.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = score.json; path = ../score.json; sourceTree = "<group>"; };
 		2B4358961719EB60004B6CBF /* BubbleTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubbleTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B4358991719EB60004B6CBF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2B43589B1719EB60004B6CBF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -123,6 +125,7 @@
 		2B030091171A5CBD004418B3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2B03009B171AF379004418B3 /* score.json */,
 				2B4358E5171A01BB004B6CBF /* DataModels.h */,
 				2B4358E6171A01BB004B6CBF /* Venue.h */,
 				2B4358E7171A01BB004B6CBF /* Venue.m */,
@@ -329,6 +332,7 @@
 				2B03008F171A5A51004418B3 /* chatheadContainer200.png in Resources */,
 				2B030090171A5A51004418B3 /* venueheadContainer200.png in Resources */,
 				2B030098171AEE56004418B3 /* PreferenceView.xib in Resources */,
+				2B03009C171AF379004418B3 /* score.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
