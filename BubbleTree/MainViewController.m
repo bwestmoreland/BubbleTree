@@ -8,10 +8,12 @@
 
 #import "MainViewController.h"
 #import "PreferenceViewController.h"
+#import "DataViewController.h"
 
 @interface MainViewController()
 
 @property (strong, nonatomic) PreferenceViewController *preferenceViewController;
+@property (strong, nonatomic) DataViewController *dataViewController;
 
 @end
 
@@ -21,7 +23,7 @@
 {
     DLog(@"Botton Action Chosen");
     self.preferenceViewController = [[PreferenceViewController alloc] initWithNibName:@"PreferenceView"
-                                                                                                    bundle:nil];
+                                                                               bundle:nil];
     [self.navigationController pushViewController:self.preferenceViewController animated:YES];
     
     
@@ -29,7 +31,11 @@
 
 - (IBAction)topActionChosen:(UIButton *)sender
 {
-    DLog(@"Top Action Chosend");
+    DLog(@"Top Action Chosen");
+    self.dataViewController = [[DataViewController alloc] initWithNibName:@"DataView"
+                                                                   bundle:nil];
+    self.dataViewController.jsonData = @"Fake JSON";
+    [self.navigationController pushViewController:self.dataViewController animated:YES];
     
 }
 

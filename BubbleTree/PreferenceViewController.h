@@ -10,4 +10,7 @@
 
 @property (nonatomic, strong) Venue *venue;
 
+- (IBAction)didntLikeIt:(UIButton *)sender;
+- (IBAction)likedIt:(UIButton *)sender;
+
 @end

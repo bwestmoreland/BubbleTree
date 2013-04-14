@@ -10,4 +10,14 @@
 
 @implementation PreferenceViewController
 
+- (IBAction)didntLikeIt:(UIButton *)sender
+{
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
+- (IBAction)likedIt:(UIButton *)sender
+{
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
 @end

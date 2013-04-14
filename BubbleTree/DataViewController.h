@@ -6,8 +6,10 @@
 //  Copyright (c) 2013 Brent Westmoreland. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+@interface DataViewController : UIViewController
 
-@interface DataViewController : NSObject
+
+@property (strong, nonatomic) NSString *jsonData;
+@property (weak, nonatomic) IBOutlet UITextView *textView;
 
 @end
