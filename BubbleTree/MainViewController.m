@@ -34,7 +34,7 @@
     DLog(@"Top Action Chosen");
     self.dataViewController = [[DataViewController alloc] initWithNibName:@"DataView"
                                                                    bundle:nil];
-    self.dataViewController.jsonData = @"Fake JSON";
+    self.dataViewController.jsonData = @[@"Fake JSON"];
     [self.navigationController pushViewController:self.dataViewController animated:YES];
     
 }

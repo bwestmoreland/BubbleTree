@@ -9,7 +9,7 @@
 @interface DataViewController : UIViewController
 
 
-@property (strong, nonatomic) NSString *jsonData;
+@property (strong, nonatomic) NSArray *jsonData;
 @property (weak, nonatomic) IBOutlet UITextView *textView;
 
 @end

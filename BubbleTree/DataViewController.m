@@ -18,13 +18,17 @@
     return self;
 }
 
-- (void)setJsonData:(NSString *)jsonData
+- (void)viewDidLoad
+{
+    self.textView.text = [[Venue setup] description]; 
+}
+
+- (void)setJsonData:(NSArray *)jsonData
 {
     DLog(@"%@", jsonData);
     if (jsonData){
         _jsonData = jsonData;
     }
-    self.textView.text = _jsonData;
 }
 
 @end
