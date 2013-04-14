@@ -9,11 +9,21 @@
 #import "MainViewController.h"
 #import "PreferenceViewController.h"
 
+@interface MainViewController()
+
+@property (strong, nonatomic) PreferenceViewController *preferenceViewController;
+
+@end
+
 @implementation MainViewController
 
 - (IBAction)bottomActionChosen:(UIButton *)sender
 {
     DLog(@"Botton Action Chosen");
+    self.preferenceViewController = [[PreferenceViewController alloc] initWithNibName:@"PreferenceView"
+                                                                                                    bundle:nil];
+    [self.navigationController pushViewController:self.preferenceViewController animated:YES];
+    
     
 }
 

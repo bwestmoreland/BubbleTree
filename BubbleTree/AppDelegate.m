@@ -14,10 +14,19 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.mainViewController = [[MainViewController alloc] initWithNibName:@"MainView" bundle:nil];
-    self.window.rootViewController = self.mainViewController;
+    self.navController = [[UINavigationController alloc] initWithRootViewController:self.mainViewController];
+    self.window.rootViewController = self.navController;
+    [self setupAppearance];
     [self.window makeKeyAndVisible];
     return YES;
 }
 
+- (void)setupAppearance
+{
+    UIColor *skyColor = [UIColor colorWithRed: 0.341 green: 0.804 blue: 0.98 alpha: 1];
+    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"navbarBackground"] forBarMetrics:UIBarMetricsDefault];
+    [[UINavigationBar appearance] setTintColor:skyColor];
+    [[UINavigationBar appearance] setShadowImage:[[UIImage alloc] init]];
+}
 
 @end
