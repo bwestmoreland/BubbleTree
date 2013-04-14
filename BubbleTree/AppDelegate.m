@@ -27,6 +27,7 @@
     [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"navbarBackground"] forBarMetrics:UIBarMetricsDefault];
     [[UINavigationBar appearance] setTintColor:skyColor];
     [[UINavigationBar appearance] setShadowImage:[[UIImage alloc] init]];
+//    [[UIBarButtonItem appearance] setShadowImage:[[UIImage alloc] init]];
 }
 
 @end

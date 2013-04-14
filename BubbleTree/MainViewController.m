@@ -46,7 +46,9 @@
     DLog(@"Person Chosen");
     self.loginViewController = [[LoginViewController alloc] initWithNibName:@"LoginView" bundle:nil];
     
-    [self presentViewController:self.loginViewController animated:YES completion:nil];
+    [self presentViewController:self.loginViewController animated:YES  completion:^{
+//        [SVProgressHUD showSuccessWithStatus:@"Great Success!"];
+    }];
     
 }
 

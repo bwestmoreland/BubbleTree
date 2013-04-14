@@ -14,12 +14,17 @@
 
 - (IBAction)login:(UIButton *)sender
 {
-    [self dismissViewControllerAnimated:YES completion:nil];
+    [self dismissViewControllerAnimated:YES completion:^{
+        [SVProgressHUD showSuccessWithStatus:@"Great Success!"];
+    }];
+
 }
 
 - (IBAction)cancel:(UIButton *)sender
 {
-    [self dismissViewControllerAnimated:YES completion:nil];
+    [self dismissViewControllerAnimated:YES completion:^{
+        [SVProgressHUD showSuccessWithStatus:@"Great Success!"];
+    }];
 }
 
 
