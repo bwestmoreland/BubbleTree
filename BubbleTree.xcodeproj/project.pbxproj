@@ -53,10 +53,10 @@
 		2B4358991719EB60004B6CBF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2B43589B1719EB60004B6CBF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2B43589D1719EB60004B6CBF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2B4358A11719EB60004B6CBF /* BubbleTree-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BubbleTree-Info.plist"; sourceTree = "<group>"; };
+		2B4358A11719EB60004B6CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B4358A31719EB60004B6CBF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2B4358A51719EB60004B6CBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2B4358A71719EB60004B6CBF /* BubbleTree-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BubbleTree-Prefix.pch"; sourceTree = "<group>"; };
+		2B4358A71719EB60004B6CBF /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		2B4358A81719EB60004B6CBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2B4358A91719EB60004B6CBF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2B4358AB1719EB60004B6CBF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -202,10 +202,10 @@
 				2B4358A81719EB60004B6CBF /* AppDelegate.h */,
 				2B4358A91719EB60004B6CBF /* AppDelegate.m */,
 				2B030093171A5CF7004418B3 /* Images */,
-				2B4358A11719EB60004B6CBF /* BubbleTree-Info.plist */,
+				2B4358A11719EB60004B6CBF /* Info.plist */,
 				2B4358A21719EB60004B6CBF /* InfoPlist.strings */,
 				2B4358A51719EB60004B6CBF /* main.m */,
-				2B4358A71719EB60004B6CBF /* BubbleTree-Prefix.pch */,
+				2B4358A71719EB60004B6CBF /* Prefix.pch */,
 				2B4358AB1719EB60004B6CBF /* Default.png */,
 				2B4358AD1719EB60004B6CBF /* Default@2x.png */,
 				2B4358AF1719EB61004B6CBF /* Default-568h@2x.png */,
@@ -483,8 +483,8 @@
 			baseConfigurationReference = 93D86E025134492ABF6E9367 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BubbleTree/BubbleTree-Prefix.pch";
-				INFOPLIST_FILE = "BubbleTree/BubbleTree-Info.plist";
+				GCC_PREFIX_HEADER = BubbleTree/Prefix.pch;
+				INFOPLIST_FILE = BubbleTree/Info.plist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -495,8 +495,8 @@
 			baseConfigurationReference = 93D86E025134492ABF6E9367 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BubbleTree/BubbleTree-Prefix.pch";
-				INFOPLIST_FILE = "BubbleTree/BubbleTree-Info.plist";
+				GCC_PREFIX_HEADER = BubbleTree/Prefix.pch;
+				INFOPLIST_FILE = BubbleTree/Info.plist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
