@@ -115,6 +115,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B030091171A5CBD004418B3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2B4358E5171A01BB004B6CBF /* DataModels.h */,
+				2B4358E6171A01BB004B6CBF /* Venue.h */,
+				2B4358E7171A01BB004B6CBF /* Venue.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		2B030092171A5CCF004418B3 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				2B4358DD1719F82D004B6CBF /* MainViewController.h */,
+				2B4358DE1719F82D004B6CBF /* MainViewController.m */,
+				2B4358E21719FD5D004B6CBF /* MainView.h */,
+				2B4358E31719FD5D004B6CBF /* MainView.m */,
+				2B4358E01719F84F004B6CBF /* MainView.xib */,
+			);
+			name = MainView;
+			sourceTree = "<group>";
+		};
+		2B030093171A5CF7004418B3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2B03008D171A5A51004418B3 /* chatheadContainer200.png */,
+				2B03008E171A5A51004418B3 /* venueheadContainer200.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		2B43588D1719EB60004B6CBF = {
 			isa = PBXGroup;
 			children = (
@@ -154,20 +185,12 @@
 		2B43589F1719EB60004B6CBF /* BubbleTree */ = {
 			isa = PBXGroup;
 			children = (
-				2B4358A81719EB60004B6CBF /* AppDelegate.h */,
-				2B4358A91719EB60004B6CBF /* AppDelegate.m */,
-				2B4358DD1719F82D004B6CBF /* MainViewController.h */,
-				2B4358DE1719F82D004B6CBF /* MainViewController.m */,
-				2B4358E21719FD5D004B6CBF /* MainView.h */,
-				2B4358E31719FD5D004B6CBF /* MainView.m */,
-				2B4358E01719F84F004B6CBF /* MainView.xib */,
-				2B4358CE1719F37D004B6CBF /* RelifyClient.h */,
-				2B4358CF1719F37D004B6CBF /* RelifyClient.m */,
 				2B4358DA1719F747004B6CBF /* Constants.h */,
 				2B4358DB1719F747004B6CBF /* Constants.m */,
-				2B4358E5171A01BB004B6CBF /* DataModels.h */,
-				2B4358E6171A01BB004B6CBF /* Venue.h */,
-				2B4358E7171A01BB004B6CBF /* Venue.m */,
+				2B4358CE1719F37D004B6CBF /* RelifyClient.h */,
+				2B4358CF1719F37D004B6CBF /* RelifyClient.m */,
+				2B030092171A5CCF004418B3 /* MainView */,
+				2B030091171A5CBD004418B3 /* Models */,
 				2B4358A01719EB60004B6CBF /* Supporting Files */,
 			);
 			path = BubbleTree;
@@ -176,8 +199,9 @@
 		2B4358A01719EB60004B6CBF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2B03008D171A5A51004418B3 /* chatheadContainer200.png */,
-				2B03008E171A5A51004418B3 /* venueheadContainer200.png */,
+				2B4358A81719EB60004B6CBF /* AppDelegate.h */,
+				2B4358A91719EB60004B6CBF /* AppDelegate.m */,
+				2B030093171A5CF7004418B3 /* Images */,
 				2B4358A11719EB60004B6CBF /* BubbleTree-Info.plist */,
 				2B4358A21719EB60004B6CBF /* InfoPlist.strings */,
 				2B4358A51719EB60004B6CBF /* main.m */,
