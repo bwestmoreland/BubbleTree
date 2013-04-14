@@ -39,10 +39,10 @@
 					<object class="IBUIButton" id="88235814">
 						<reference key="NSNextResponder" ref="662931324"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{125, 75}, {88, 88}}</string>
+						<string key="NSFrame">{{124, 74}, {88, 88}}</string>
 						<reference key="NSSuperview" ref="662931324"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="644408570"/>
+						<reference key="NSNextKeyView" ref="484034043"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -61,7 +61,7 @@
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MC41AA</bytes>
 						</object>
-						<object class="NSCustomResource" key="IBUINormalImage" id="344746013">
+						<object class="NSCustomResource" key="IBUINormalImage" id="265065281">
 							<string key="NSClassName">NSImage</string>
 							<string key="NSResourceName">venueheadContainer200.png</string>
 						</object>
@@ -75,13 +75,13 @@
 							<int key="NSfFlags">16</int>
 						</object>
 					</object>
-					<object class="IBUIButton" id="644408570">
+					<object class="IBUIButton" id="484034043">
 						<reference key="NSNextResponder" ref="662931324"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{28, 219}, {88, 88}}</string>
 						<reference key="NSSuperview" ref="662931324"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="938141225"/>
+						<reference key="NSNextKeyView" ref="198599673"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -94,11 +94,11 @@
 							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="823314224"/>
-						<reference key="IBUINormalImage" ref="344746013"/>
+						<reference key="IBUINormalImage" ref="265065281"/>
 						<reference key="IBUIFontDescription" ref="962510477"/>
 						<reference key="IBUIFont" ref="219854267"/>
 					</object>
-					<object class="IBUIImageView" id="938141225">
+					<object class="IBUIImageView" id="198599673">
 						<reference key="NSNextResponder" ref="662931324"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{138, 349}, {120, 120}}</string>
@@ -180,8 +180,8 @@
 						<reference key="object" ref="662931324"/>
 						<array class="NSMutableArray" key="children">
 							<reference ref="88235814"/>
-							<reference ref="644408570"/>
-							<reference ref="938141225"/>
+							<reference ref="484034043"/>
+							<reference ref="198599673"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -192,12 +192,12 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">8</int>
-						<reference key="object" ref="938141225"/>
+						<reference key="object" ref="198599673"/>
 						<reference key="parent" ref="662931324"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">9</int>
-						<reference key="object" ref="644408570"/>
+						<reference key="object" ref="484034043"/>
 						<reference key="parent" ref="662931324"/>
 					</object>
 				</array>
