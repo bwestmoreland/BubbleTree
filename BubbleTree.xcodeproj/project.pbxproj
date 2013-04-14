@@ -10,6 +10,8 @@
 		15860F9C03FD4B60A2D27BD6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 215DF3ACEB88475B802F3092 /* libPods.a */; };
 		2B03008F171A5A51004418B3 /* chatheadContainer200.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B03008D171A5A51004418B3 /* chatheadContainer200.png */; };
 		2B030090171A5A51004418B3 /* venueheadContainer200.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B03008E171A5A51004418B3 /* venueheadContainer200.png */; };
+		2B030096171AEE49004418B3 /* PreferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B030095171AEE49004418B3 /* PreferenceViewController.m */; };
+		2B030098171AEE56004418B3 /* PreferenceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B030097171AEE56004418B3 /* PreferenceView.xib */; };
 		2B43589A1719EB60004B6CBF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4358991719EB60004B6CBF /* UIKit.framework */; };
 		2B43589C1719EB60004B6CBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B43589B1719EB60004B6CBF /* Foundation.framework */; };
 		2B43589E1719EB60004B6CBF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B43589D1719EB60004B6CBF /* CoreGraphics.framework */; };
@@ -49,6 +51,9 @@
 		215DF3ACEB88475B802F3092 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B03008D171A5A51004418B3 /* chatheadContainer200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chatheadContainer200.png; sourceTree = "<group>"; };
 		2B03008E171A5A51004418B3 /* venueheadContainer200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = venueheadContainer200.png; sourceTree = "<group>"; };
+		2B030094171AEE49004418B3 /* PreferenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PreferenceViewController.h; path = BubbleTree/PreferenceViewController.h; sourceTree = SOURCE_ROOT; };
+		2B030095171AEE49004418B3 /* PreferenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PreferenceViewController.m; path = BubbleTree/PreferenceViewController.m; sourceTree = SOURCE_ROOT; };
+		2B030097171AEE56004418B3 /* PreferenceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferenceView.xib; sourceTree = "<group>"; };
 		2B4358961719EB60004B6CBF /* BubbleTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubbleTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B4358991719EB60004B6CBF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2B43589B1719EB60004B6CBF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -146,6 +151,16 @@
 			name = Images;
 			sourceTree = "<group>";
 		};
+		2B03009A171AEE6F004418B3 /* PreferenceView */ = {
+			isa = PBXGroup;
+			children = (
+				2B030094171AEE49004418B3 /* PreferenceViewController.h */,
+				2B030095171AEE49004418B3 /* PreferenceViewController.m */,
+				2B030097171AEE56004418B3 /* PreferenceView.xib */,
+			);
+			name = PreferenceView;
+			sourceTree = "<group>";
+		};
 		2B43588D1719EB60004B6CBF = {
 			isa = PBXGroup;
 			children = (
@@ -189,6 +204,7 @@
 				2B4358DB1719F747004B6CBF /* Constants.m */,
 				2B4358CE1719F37D004B6CBF /* RelifyClient.h */,
 				2B4358CF1719F37D004B6CBF /* RelifyClient.m */,
+				2B03009A171AEE6F004418B3 /* PreferenceView */,
 				2B030092171A5CCF004418B3 /* MainView */,
 				2B030091171A5CBD004418B3 /* Models */,
 				2B4358A01719EB60004B6CBF /* Supporting Files */,
@@ -312,6 +328,7 @@
 				2B4358E11719F84F004B6CBF /* MainView.xib in Resources */,
 				2B03008F171A5A51004418B3 /* chatheadContainer200.png in Resources */,
 				2B030090171A5A51004418B3 /* venueheadContainer200.png in Resources */,
+				2B030098171AEE56004418B3 /* PreferenceView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +398,7 @@
 				2B4358DF1719F82D004B6CBF /* MainViewController.m in Sources */,
 				2B4358E41719FD5D004B6CBF /* MainView.m in Sources */,
 				2B4358E8171A01BC004B6CBF /* Venue.m in Sources */,
+				2B030096171AEE49004418B3 /* PreferenceViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
