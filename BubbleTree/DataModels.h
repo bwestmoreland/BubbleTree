@@ -1,8 +1,8 @@
 //
 //  DataModels.h
 //
-//  Created by   on 4/13/13
-//  Copyright (c) 2013 __MyCompanyName__. All rights reserved.
+//  Created by Brent Westmoreland on 4/13/13
+//  Copyright (c) 2013 Brent Westmoreland. All rights reserved.
 //
 
 #import "Venue.h"
