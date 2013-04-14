@@ -10,4 +10,20 @@
 
 @implementation MainViewController
 
+- (IBAction)bottomActionChosen:(UIButton *)sender
+{
+    DLog(@"Botton Action Chosen");
+}
+
+- (IBAction)topActionChosen:(UIButton *)sender
+{
+    DLog(@"Top Action Chosend");
+    
+}
+
+- (IBAction)personChosen:(UIButton *)sender
+{
+    DLog(@"Person Chosen");
+    
+}
 @end

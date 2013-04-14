@@ -8,6 +8,13 @@
 
 @interface MainViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIButton *topActionButton;
+@property (weak, nonatomic) IBOutlet UIButton *bottomActionButton;
+
+- (IBAction)bottomActionChosen:(UIButton *)sender;
+- (IBAction)topActionChosen:(UIButton *)sender;
+- (IBAction)personChosen:(UIButton *)sender;
+
 
 
 @end
