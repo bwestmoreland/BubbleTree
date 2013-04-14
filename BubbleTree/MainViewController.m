@@ -9,11 +9,13 @@
 #import "MainViewController.h"
 #import "PreferenceViewController.h"
 #import "DataViewController.h"
+#import "LoginViewController.h"
 
 @interface MainViewController()
 
 @property (strong, nonatomic) PreferenceViewController *preferenceViewController;
 @property (strong, nonatomic) DataViewController *dataViewController;
+@property (strong, nonatomic) LoginViewController *loginViewController;
 
 @end
 
@@ -42,8 +44,10 @@
 - (IBAction)personChosen:(UIButton *)sender
 {
     DLog(@"Person Chosen");
-    NSArray *venues = [Venue setup];
-    DLog(@"venues %@", venues);
+    self.loginViewController = [[LoginViewController alloc] initWithNibName:@"LoginView" bundle:nil];
+    
+    [self presentViewController:self.loginViewController animated:YES completion:nil];
+    
 }
 
 @end

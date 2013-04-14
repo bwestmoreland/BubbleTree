@@ -19,6 +19,8 @@
 		2B0300A4171B0086004418B3 /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B0300A2171B0086004418B3 /* sun.png */; };
 		2B0300A7171B0369004418B3 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0300A6171B0369004418B3 /* DataViewController.m */; };
 		2B0300A9171B0378004418B3 /* DataView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B0300A8171B0378004418B3 /* DataView.xib */; };
+		2B0300AD171B121F004418B3 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0300AC171B121F004418B3 /* LoginViewController.m */; };
+		2B0300AF171B122C004418B3 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B0300AE171B122C004418B3 /* LoginView.xib */; };
 		2B43589A1719EB60004B6CBF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4358991719EB60004B6CBF /* UIKit.framework */; };
 		2B43589C1719EB60004B6CBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B43589B1719EB60004B6CBF /* Foundation.framework */; };
 		2B43589E1719EB60004B6CBF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B43589D1719EB60004B6CBF /* CoreGraphics.framework */; };
@@ -69,6 +71,9 @@
 		2B0300A5171B0369004418B3 /* DataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
 		2B0300A6171B0369004418B3 /* DataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
 		2B0300A8171B0378004418B3 /* DataView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataView.xib; sourceTree = "<group>"; };
+		2B0300AB171B121E004418B3 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		2B0300AC171B121F004418B3 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		2B0300AE171B122C004418B3 /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
 		2B4358961719EB60004B6CBF /* BubbleTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubbleTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B4358991719EB60004B6CBF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2B43589B1719EB60004B6CBF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -191,6 +196,16 @@
 			name = DataView;
 			sourceTree = "<group>";
 		};
+		2B0300B0171B1232004418B3 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				2B0300AB171B121E004418B3 /* LoginViewController.h */,
+				2B0300AC171B121F004418B3 /* LoginViewController.m */,
+				2B0300AE171B122C004418B3 /* LoginView.xib */,
+			);
+			name = LoginView;
+			sourceTree = "<group>";
+		};
 		2B43588D1719EB60004B6CBF = {
 			isa = PBXGroup;
 			children = (
@@ -234,6 +249,7 @@
 				2B4358DB1719F747004B6CBF /* Constants.m */,
 				2B4358CE1719F37D004B6CBF /* RelifyClient.h */,
 				2B4358CF1719F37D004B6CBF /* RelifyClient.m */,
+				2B0300B0171B1232004418B3 /* LoginView */,
 				2B0300AA171B037E004418B3 /* DataView */,
 				2B03009A171AEE6F004418B3 /* PreferenceView */,
 				2B030092171A5CCF004418B3 /* MainView */,
@@ -366,6 +382,7 @@
 				2B0300A3171B0086004418B3 /* raincloud.png in Resources */,
 				2B0300A4171B0086004418B3 /* sun.png in Resources */,
 				2B0300A9171B0378004418B3 /* DataView.xib in Resources */,
+				2B0300AF171B122C004418B3 /* LoginView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +454,7 @@
 				2B4358E8171A01BC004B6CBF /* Venue.m in Sources */,
 				2B030096171AEE49004418B3 /* PreferenceViewController.m in Sources */,
 				2B0300A7171B0369004418B3 /* DataViewController.m in Sources */,
+				2B0300AD171B121F004418B3 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
