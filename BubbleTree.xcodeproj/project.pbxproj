@@ -21,6 +21,7 @@
 		2B0300A9171B0378004418B3 /* DataView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B0300A8171B0378004418B3 /* DataView.xib */; };
 		2B0300AD171B121F004418B3 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0300AC171B121F004418B3 /* LoginViewController.m */; };
 		2B0300AF171B122C004418B3 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B0300AE171B122C004418B3 /* LoginView.xib */; };
+		2B0300B2171B1994004418B3 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 2B0300B1171B1994004418B3 /* Podfile */; };
 		2B43589A1719EB60004B6CBF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4358991719EB60004B6CBF /* UIKit.framework */; };
 		2B43589C1719EB60004B6CBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B43589B1719EB60004B6CBF /* Foundation.framework */; };
 		2B43589E1719EB60004B6CBF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B43589D1719EB60004B6CBF /* CoreGraphics.framework */; };
@@ -74,6 +75,7 @@
 		2B0300AB171B121E004418B3 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		2B0300AC171B121F004418B3 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		2B0300AE171B122C004418B3 /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
+		2B0300B1171B1994004418B3 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		2B4358961719EB60004B6CBF /* BubbleTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubbleTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B4358991719EB60004B6CBF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2B43589B1719EB60004B6CBF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -213,6 +215,7 @@
 				2B4358BD1719EB61004B6CBF /* BubbleTreeTests */,
 				2B4358981719EB60004B6CBF /* Frameworks */,
 				2B4358971719EB60004B6CBF /* Products */,
+				2B0300B1171B1994004418B3 /* Podfile */,
 				93D86E025134492ABF6E9367 /* Pods.xcconfig */,
 				A39EBEC4607E4ADE8B36C5F2 /* Pods-BubbleTreeTests.xcconfig */,
 			);
@@ -383,6 +386,7 @@
 				2B0300A4171B0086004418B3 /* sun.png in Resources */,
 				2B0300A9171B0378004418B3 /* DataView.xib in Resources */,
 				2B0300AF171B122C004418B3 /* LoginView.xib in Resources */,
+				2B0300B2171B1994004418B3 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

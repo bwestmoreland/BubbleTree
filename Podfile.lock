@@ -4,15 +4,18 @@ PODS:
 - AFOAuth2Client (0.1.1):
   - AFNetworking (~> 1.0)
 - Kiwi (2.0.6)
+- SVProgressHUD (0.9)
 
 DEPENDENCIES:
 - AFNetworking (~> 1.2.0)
 - AFOAuth2Client (~> 0.1.1)
 - Kiwi
+- SVProgressHUD (~> 0.9)
 
 SPEC CHECKSUMS:
   AFNetworking: 3cbae45f61a9f995cdbd56bd571223910d7f4e44
   AFOAuth2Client: 039596f19e8a4bdd852cb3fc44ddbe45e12c290a
+  SVProgressHUD: 03d4845ec8e64591726428a08236c6a5489d45f8
   Kiwi: 56082a80f942de4d10423d8d8a599ab30cf50228
 
 COCOAPODS: 0.16.4
